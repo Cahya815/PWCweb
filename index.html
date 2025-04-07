@@ -2,134 +2,40 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Azzam Snack - UMKM Tradisional</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #fff;
-      color: #333;
-    }
-    header {
-      background: linear-gradient(to right, #ffa726, #fb8c00);
-      color: white;
-      padding: 20px;
-      text-align: center;
-      font-size: 1.5rem;
-      font-weight: 600;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      background: #fff3e0;
-      padding: 10px;
-    }
-    nav button {
-      background: white;
-      border: 1px solid #ffa726;
-      border-radius: 20px;
-      padding: 10px 15px;
-      margin: 0 10px;
-      cursor: pointer;
-      font-weight: bold;
-      color: #fb8c00;
-    }
-    .hero {
-      padding: 20px;
-      text-align: center;
-    }
-    .hero img {
-      max-width: 300px;
-      border-radius: 10px;
-    }
-    .kategori {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      margin: 20px 0;
-    }
-    .kategori div {
-      text-align: center;
-    }
-    .kategori img {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-    }
-    .produk {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 20px;
-      padding: 20px;
-    }
-    .produk-item {
-      border: 1px solid #eee;
-      border-radius: 10px;
-      overflow: hidden;
-      text-align: center;
-      padding: 10px;
-    }
-    .produk-item img {
-      width: 100%;
-      height: 140px;
-      object-fit: cover;
-    }
-    footer {
-      background: #fb8c00;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snack Tradisional Bu Ibu</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>AZZAM SNACK</header>
+  <header>
+    <h1>Snack Tradisional Bu Ibu</h1>
+    <p>Cemilan khas Jawa dengan rasa nostalgia</p>
+  </header>
 
-  <nav>
-    <button>MENERIMA PESANAN</button>
-    <button>HARGA BERSAING</button>
-    <button>LEZAT</button>
-  </nav>
+  <main>
+    <section class="menu">
+      <h2>Menu Snack</h2>
+      <div class="card">
+        <img src="img/rempeyek.jpg" alt="Rempeyek">
+        <h3>Rempeyek Kacang</h3>
+        <p>Harga: Rp10.000</p>
+      </div>
+      <div class="card">
+        <img src="img/kembang-goyang.jpg" alt="Kembang Goyang">
+        <h3>Kembang Goyang</h3>
+        <p>Harga: Rp12.000</p>
+      </div>
+      <!-- Tambahkan produk lainnya di sini -->
+    </section>
 
-  <section class="hero">
-    <h2>MENERIMA PESANAN BESAR / KECIL</h2>
-    <p>Request sesuai selera!</p>
-    <img src="https://i.imgur.com/1X5HTfN.png" alt="Snack Box">
-  </section>
-
-  <section class="kategori">
-    <div>
-      <img src="https://i.imgur.com/5rAM1oR.png" alt="Snack Box">
-      <p>SNACK BOX</p>
-    </div>
-    <div>
-      <img src="https://i.imgur.com/fbGNE2F.png" alt="Snack Lain">
-      <p>SNACK LAIN</p>
-    </div>
-    <div>
-      <img src="https://i.imgur.com/yKlDFyP.png" alt="Terlaris">
-      <p>TERLARIS</p>
-    </div>
-  </section>
-
-  <section class="produk">
-    <div class="produk-item">
-      <img src="https://i.imgur.com/h95M6hD.jpg" alt="Tahu Bakso">
-      <h4>TAHU BAKSO</h4>
-      <p>Rp. 1.500 /pcs</p>
-    </div>
-    <div class="produk-item">
-      <img src="https://i.imgur.com/Fmg4AwM.jpg" alt="Tahu Bakso">
-      <h4>TAHU BAKSO</h4>
-      <p>Rp. 1.500 /pcs</p>
-    </div>
-  </section>
+    <section class="order">
+      <h2>Pesan Sekarang</h2>
+      <a href="https://wa.me/62xxxxxxxxxxx" target="_blank" class="wa-button">Chat WhatsApp</a>
+    </section>
+  </main>
 
   <footer>
-    Hubungi Kami via WhatsApp: <a href="https://wa.me/6281234567890" style="color: #fff; text-decoration: underline;">Klik di sini</a>
+    <p>© 2025 Snack Tradisional Bu Ibu. Dibuat dengan ❤️ oleh anak tercinta.</p>
   </footer>
 </body>
 </html>
